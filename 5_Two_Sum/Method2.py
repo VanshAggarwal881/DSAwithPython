@@ -10,7 +10,7 @@ def two_sum(arr, target):
         needed_val = target - arr[i]
         # check the keys present in dict , if present fetch the value of it otherwise save the index value of the array as the key of the dict and index as their value
         if needed_val in dict:
-            return [i , dict[needed_val]].sort()
+            return [i , dict[needed_val]]
         else:
             # add key (the values present at indexes) to the dict
             dict[arr[i]] = i
