@@ -17,8 +17,8 @@ def Isomporphic_strings(s , t):
             return False
     return True
 
-s = "abac"
-t = "xyxz"
+s = "paper"
+t = "title"
 result = Isomporphic_strings(s , t)
 if result == True:
     print("true")
