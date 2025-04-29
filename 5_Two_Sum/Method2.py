@@ -17,4 +17,6 @@ def two_sum(arr, target):
     return []
 
 
-print(two_sum([2,0,5,6] , 11))
+arr = [int(x) for x in input("nums : ").split()]
+target = int(input("target : "))
+print(two_sum(arr, target))
